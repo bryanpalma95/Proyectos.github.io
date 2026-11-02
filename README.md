@@ -1,27 +1,30 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+# Bryan Palma | Portfolio
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Sitio de portafolio personal de **Bryan Palma**, desarrollador web.
 
-## Getting Started
+**URL publicada:** https://bryanpalma95.github.io (o el dominio de GitHub Pages configurado)
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* Fork the repo
+## Qué es
 
-## Bugs and Issues
+Landing page / portafolio con diseño dark (tema violeta/rosa) construido sobre el template **Start Bootstrap Creative**, personalizado completamente para mostrar proyectos y habilidades propias.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+## Stack
 
-## Creator
+- HTML / CSS / JS
+- Bootstrap (base del template Creative)
+- Gulp (build y minificación de CSS/JS)
+- Less para preprocesado de estilos
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+## Cómo usar
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+```bash
+npm install
+gulp
+```
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Esto compila el Less, minifica los assets y levanta un servidor local con BrowserSync.
 
-## Copyright and License
+## Créditos del template base
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+Este proyecto está basado en [Start Bootstrap Creative](https://startbootstrap.com/template-overviews/creative/) de [Blackrock Digital](https://blackrockdigital.io/), publicado bajo licencia MIT.  
+El contenido, personalización y adaptación al portfolio personal son de Bryan Palma.
