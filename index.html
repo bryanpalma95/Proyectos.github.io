@@ -237,6 +237,18 @@
       border-color: rgba(247, 106, 200, 0.2);
     }
 
+    .tag.orange {
+      background: rgba(251, 146, 60, 0.1);
+      color: #fb923c;
+      border-color: rgba(251, 146, 60, 0.2);
+    }
+
+    .tag.blue {
+      background: rgba(96, 165, 250, 0.1);
+      color: #60a5fa;
+      border-color: rgba(96, 165, 250, 0.2);
+    }
+
     .arrow {
       color: var(--muted);
       font-size: 18px;
@@ -298,16 +310,88 @@
     <p class="section-label">Proyectos</p>
     <div class="projects-grid">
 
-      <!-- Skylabs -->
-      <a class="card" href="https://bryanpalma95.github.io/Proyectos.github.io" target="_blank" rel="noopener">
-        <div class="card-icon">🚀</div>
-        <div class="card-title">Skylabs</div>
-        <div class="card-desc">Sitio web corporativo para empresa de desarrollo y mantención de software. Diseño one-page con Bootstrap.</div>
+      <!-- Productivity Monitor -->
+      <a class="card" href="https://bryanpalma95.github.io/productivity-monitor/" target="_blank" rel="noopener">
+        <div class="card-icon">🎙️</div>
+        <div class="card-title">Productivity Monitor</div>
+        <div class="card-desc">PWA de monitoreo de productividad y transcripción de reuniones. Captura audio del sistema, transcribe con IA (Groq Whisper), capturas de pantalla inteligentes y resúmenes ejecutivos con IA.</div>
         <div class="card-footer">
           <div class="tags">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">Bootstrap</span>
+            <span class="tag green">JavaScript</span>
+            <span class="tag blue">Firebase</span>
+            <span class="tag">PWA</span>
+          </div>
+          <span class="arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- LinkNest -->
+      <a class="card" href="https://bryanpalma95.github.io/linknest/" target="_blank" rel="noopener">
+        <div class="card-icon">🔗</div>
+        <div class="card-title">LinkNest</div>
+        <div class="card-desc">Alternativa open-source a Linktree. Página de enlaces con 22 tipos de bloques, editor drag & drop, 12 temas, analíticas, generador de QR y soporte opcional de Supabase.</div>
+        <div class="card-footer">
+          <div class="tags">
+            <span class="tag green">JavaScript</span>
+            <span class="tag pink">Supabase</span>
+            <span class="tag">PWA</span>
+          </div>
+          <span class="arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- FormularioDuoc -->
+      <a class="card" href="https://bryanpalma95.github.io/FormularioDuoc/" target="_blank" rel="noopener">
+        <div class="card-icon">📋</div>
+        <div class="card-title">Formulario Duoc</div>
+        <div class="card-desc">App móvil para digitalizar cupones físicos de eventos DuocUC con IA. Extrae datos con Gemini Vision y los pega automáticamente en el formulario Angular oficial.</div>
+        <div class="card-footer">
+          <div class="tags">
+            <span class="tag green">JavaScript</span>
+            <span class="tag orange">Gemini AI</span>
+          </div>
+          <span class="arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- RepuestosPro -->
+      <a class="card" href="https://bryanpalma95.github.io/RepuestosPro/" target="_blank" rel="noopener">
+        <div class="card-icon">🔧</div>
+        <div class="card-title">RepuestosPro</div>
+        <div class="card-desc">Catálogo de repuestos automotrices con 3.264 vehículos, 54.604 componentes OEM y referencias cruzadas. Incluye módulo de taller con clientes, órdenes de trabajo y presupuestos.</div>
+        <div class="card-footer">
+          <div class="tags">
+            <span class="tag green">JavaScript</span>
+            <span class="tag">JSON</span>
+            <span class="tag blue">Python</span>
+          </div>
+          <span class="arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- Calculadora de Gastos -->
+      <a class="card" href="https://bryanpalma95.github.io/calculadora-de-gastos/" target="_blank" rel="noopener">
+        <div class="card-icon">💰</div>
+        <div class="card-title">Calculadora de Gastos</div>
+        <div class="card-desc">App de control financiero personal y del hogar con sincronización en la nube. Metas de ahorro, presupuestos por categoría, distribución proporcional entre integrantes y exportación a CSV.</div>
+        <div class="card-footer">
+          <div class="tags">
+            <span class="tag green">JavaScript</span>
+            <span class="tag blue">Firebase</span>
+          </div>
+          <span class="arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- PanoramApp -->
+      <a class="card" href="https://bryanpalma95.github.io/panoramapp/" target="_blank" rel="noopener">
+        <div class="card-icon">🎉</div>
+        <div class="card-title">PanoramApp</div>
+        <div class="card-desc">Guía urbana de Chile. Turismo, transporte, emergencia, clima, feriados y panoramas por ciudad. Geolocalización automática, tema claro/oscuro e integración opcional con Ticketmaster.</div>
+        <div class="card-footer">
+          <div class="tags">
+            <span class="tag green">JavaScript</span>
+            <span class="tag blue">Python</span>
           </div>
           <span class="arrow">↗</span>
         </div>
@@ -317,7 +401,7 @@
       <a class="card" href="https://bryanpalma95.github.io/Tuguiadeturismo" target="_blank" rel="noopener">
         <div class="card-icon">🗺️</div>
         <div class="card-title">Tu Guía de Turismo</div>
-        <div class="card-desc">App web para descubrir y gestionar servicios turísticos en Chile. Incluye 73 servicios reales con búsqueda en tiempo real.</div>
+        <div class="card-desc">App web para gestionar servicios turísticos en Chile. 73 servicios reales precargados (hoteles, restaurantes, atractivos, agencias) con búsqueda en tiempo real y diseño dark premium.</div>
         <div class="card-footer">
           <div class="tags">
             <span class="tag green">JavaScript</span>
@@ -328,14 +412,30 @@
         </div>
       </a>
 
-      <!-- Chavito -->
+      <!-- Informe APT Xtreme 4x4 -->
+      <a class="card" href="https://bryanpalma95.github.io/informe-apt-xtreme4x4/" target="_blank" rel="noopener">
+        <div class="card-icon">🚙</div>
+        <div class="card-title">Xtreme 4x4</div>
+        <div class="card-desc">Informe APT final para DuocUC — proyecto de taller de reparaciones y modificaciones off-road en Villarrica. Incluye análisis financiero, evidencias técnicas y exportación a PDF.</div>
+        <div class="card-footer">
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS3</span>
+            <span class="tag orange">DuocUC</span>
+          </div>
+          <span class="arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- La Pica del Chavito -->
       <a class="card" href="https://bryanpalma95.github.io/chavito" target="_blank" rel="noopener">
         <div class="card-icon">🍔</div>
         <div class="card-title">La Pica del Chavito</div>
-        <div class="card-desc">Sitio web para local de comida. Diseño simple y directo con HTML puro.</div>
+        <div class="card-desc">Landing page para restaurante en Coñaripe. Diseño gastronómico con paleta crema/tomate/albahaca, enlaces a Instagram y Google Maps. HTML/CSS puro, carga instantánea.</div>
         <div class="card-footer">
           <div class="tags">
             <span class="tag pink">HTML</span>
+            <span class="tag">CSS3</span>
           </div>
           <span class="arrow">↗</span>
         </div>
@@ -345,7 +445,7 @@
       <a class="card" href="https://github.com/bryanpalma95" target="_blank" rel="noopener">
         <div class="card-icon">📁</div>
         <div class="card-title">Ver todos los proyectos</div>
-        <div class="card-desc">Explora el resto de repositorios y proyectos en GitHub.</div>
+        <div class="card-desc">Explora el resto de repositorios en GitHub.</div>
         <div class="card-footer">
           <div class="tags">
             <span class="tag">GitHub</span>
